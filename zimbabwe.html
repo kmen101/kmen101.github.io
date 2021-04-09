@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+  <a name="top"></a>
   <head>
     <meta charset="utf-8" />
     <title>Zimbabwe</title>
+    <link href="stylesheet/style.css" rel="stylesheet"/>
   </head>
 
   <body>
@@ -20,10 +22,10 @@
       </ul>
     </nav>
 
-    <main>
+    <main id="wrapper">
 
       <!--Introduction section-->
-      <section>
+      <section id="introduction">
         <h2 id="intro">Introduction</h2>
 
         <article>
@@ -41,66 +43,121 @@
 
           <p>In <time datetime="2017-11">November 2017</time>, Vice President Emmerson MNANGAGWA took over following a military intervention that forced MUGABE to resign. MNANGAGWA was inaugurated president days later, promising to hold presidential elections in <time datetime="2018">2018</time>. In <time datetime="2018-07">July 2018</time>, MNANGAGWA won the presidential election after a close contest with Movement for Democratic Change Alliance candidate Nelson CHAMISA.</p>
 
-          <p>MNANGAGWA has since resorted to the government's longstanding practice of violently disrupting protests or opposition rallies. Official inflation rates soared in <time datetime="2019">2019</time>, approaching 500% by the end of the year. MUGABE died in <time datetime="2019-09">September 2019</time>.</p>
+          <p id="bottom_intro_text">MNANGAGWA has since resorted to the government's longstanding practice of violently disrupting protests or opposition rallies. Official inflation rates soared in <time datetime="2019">2019</time>, approaching 500% by the end of the year. MUGABE died in <time datetime="2019-09">September 2019</time>.</p>
         </article>
 
         <article>
         <!--Country flag -->
           <h3>Country Flag</h3>
+          <p id="flag_text">The flag of Zimbabwe has seven equal horizontal bands of green (top), yellow, red, black, red, yellow, and green with a white isosceles triangle edged in black with its base on the hoist side; a yellow Zimbabwe bird representing the long history of the country is superimposed on a red five-pointed star in the center of the triangle, which symbolizes peace; green represents agriculture, yellow mineral wealth, red the blood shed to achieve independence, and black stands for the native people.</p>
 
-          <p>The flag of Zimbabwe has seven equal horizontal bands of green (top), yellow, red, black, red, yellow, and green with a white isosceles triangle edged in black with its base on the hoist side; a yellow Zimbabwe bird representing the long history of the country is superimposed on a red five-pointed star in the center of the triangle, which symbolizes peace; green represents agriculture, yellow mineral wealth, red the blood shed to achieve independence, and black stands for the native people.</p>
-
-          <!--Can wrap in aside -->
           <aside>
-            <figure>
-              <img src="zimbabwe-flag.png" alt="Zimbabwe Flag">
-              <figcaption>The Zimbabwe flag</figcaption>
-            </figure>
+              <figure id="flag_img">
+                <img src="img/zimbabwe-flag.png" alt="Zimbabwe Flag">
+                <figcaption>The Zimbabwe flag. Source: <abbr title="Central Intelligence Agency">CIA</abbr> World Factbook</figcaption>
+              </figure>
           </aside>
         </article>
       </section>
 
       <!--Geography section-->
-      <section>
+      <section id="geo_section">
         <h2 id="geo">Geography</h2>
 
         <!--Location -->
         <article>
           <h3>Location</h3>
-          <p>Zimbabwe is located in Southern Africa, between South Africa and Zambia. The country's geographical coordinates are 20 00 S, 30 00 E.</p>
-          <p>The capital of Zimbabwe is Harare. It's named after a village of Harare at the site of the present capital; the village name derived from a Shona chieftain, Ne-harawa, whose name meant "he who does not sleep".</p>
+          <p id="location_text_1">Zimbabwe is located in Southern Africa, between South Africa and Zambia. The country's geographical coordinates are 20 00 S, 30 00 E.</p>
+          <p id="location_text">The capital of Zimbabwe is Harare. It's named after a village of Harare at the site of the present capital; the village name derived from a Shona chieftain, Ne-harawa, whose name meant "he who does not sleep".</p>
+          <p id="location_text">Zimbabwe is a landlocked country in southern Africa, lying between latitudes 15° and 23°S, and longitudes 25° and 34°E. It is bordered by South Africa to the south, Botswana to the west and southwest, Zambia to the northwest, and Mozambique to the east and northeast.</p>
+          <p id="location_text">Its northwest corner is roughly 150 meters from Namibia, nearly forming a four-nation quadripoint. Most of the country is elevated, consisting of a central plateau (high veld) stretching from the southwest northwards with altitudes between 1,000 and 1,600 m.</p>
 
-          <figure>
-            <img src="zimbabwe-map.png" alt="A map of Zimbabwe">
-            <figcaption>A map of Zimbabwe</figcaption>
-          </figure>
+          <aside>
+            <figure id="map">
+              <img src="img/zimbabwe-map.png" alt="A map of Zimbabwe">
+              <figcaption>A map of Zimbabwe. Source: CIA World Factbook</figcaption>
+            </figure>
+          </aside>
         </article>
 
+        <div id="geography">
+          <!--Land use -->
+          <article>
+            <h3>Land Use</h3>
+            <table>
+              <!--<caption>Types of Land Use</caption> -->
 
-        <!--Land Boundaries -->
-        <article>
-          <h3>Land Boundaries</h3>
-          <ul>
-            <li>Botswana</li>
-            <li>Mozambique</li>
-            <li>South Africa</li>
-            <li>Zambia</li>
-          </ul>
-        </article>
+              <colgroup></colgroup>
+              <colgroup></colgroup>
 
-        <!--Elevation -->
-        <article>
-          <h3>Elevation</h3>
-          <ul>
-            <li><strong>mean elevation:</strong> 961 m</li>
-            <li><strong>lowest point:</strong>  junction of the Runde and Save Rivers 162 m</li>
-            <li><strong>highest point:</strong> Inyangani 2,592 m</li>
-          </ul>
-        </article>
+              <thead>
+                <tr>
+                  <th>Type of Land</th>
+                  <th>Amount in %</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td>Agricultural Land</td>
+                  <td>42.5</td>
+                </tr>
+
+                <tr>
+                  <td>Arable Land</td>
+                  <td>10.9</td>
+                </tr>
+
+                <tr>
+                  <td>Permanent Crops</td>
+                  <td>0.3</td>
+                </tr>
+
+                <tr>
+                  <td>Permanent Pasture</td>
+                  <td>31.3</td>
+                </tr>
+
+                <tr>
+                  <td>Forest</td>
+                  <td>39.5</td>
+                </tr>
+
+                <tr>
+                  <td>Other</td>
+                  <td>18</td>
+                </tr>
+              </tbody>
+            </table>
+          </article>
+
+          <!--Elevation -->
+          <article id="elevation">
+            <h3>Elevation</h3>
+            <ul>
+              <li><strong>mean elevation:</strong> 961 m</li>
+              <li><strong>lowest point:</strong>  junction of the Runde and Save Rivers 162 m</li>
+              <li><strong>highest point:</strong> Inyangani 2,592 m</li>
+            </ul>
+          </article>
+
+          <!--Land Boundaries -->
+          <article>
+            <h3>Land Boundaries</h3>
+            <ul>
+              <li>Botswana</li>
+              <li>Mozambique</li>
+              <li>South Africa</li>
+              <li>Zambia</li>
+            </ul>
+          </article>
+        </div>
 
         <!--Natural Resources -->
+
         <article>
           <h3>Natural Resources</h3>
+          <!--
           <ul>
             <li>Coal</li>
             <li>Chromium ore</li>
@@ -114,62 +171,13 @@
             <li>Tin</li>
             <li>Platinum group metals</li>
           </ul>
-        </article>
-
-
-        <!--Land use -->
-        <article>
-          <h3>Land Use</h3>
-          <table>
-            <caption>Types of Land Use</caption>
-
-            <colgroup></colgroup>
-            <colgroup></colgroup>
-
-            <thead>
-              <tr>
-                <th>Type of Land</th>
-                <th>Amount in %</th>
-              </tr>
-            </thead>
-
-            <tbody>
-              <tr>
-                <td>Agricultural Land</td>
-                <td>42.5</td>
-              </tr>
-
-              <tr>
-                <td>Arable Land</td>
-                <td>10.9</td>
-              </tr>
-
-              <tr>
-                <td>Permanent Crops</td>
-                <td>0.3</td>
-              </tr>
-
-              <tr>
-                <td>Permanent Pasture</td>
-                <td>31.3</td>
-              </tr>
-
-              <tr>
-                <td>Forest</td>
-                <td>39.5</td>
-              </tr>
-
-              <tr>
-                <td>Other</td>
-                <td>18</td>
-              </tr>
-            </tbody>
-          </table>
+          -->
+          <p>Zimbabwe is home to an incredible amount of natural resources. Some of these resources include coal, chromium, asbestos, gold, nickel, copper, iron ore, vanadium, lithium, tin, and platinum group metals.</p>
         </article>
       </section>
 
       <!--People and society section-->
-      <section>
+      <section id="people_and_society">
         <h2 id="people">People and Society</h2>
 
         <!--Nationality-->
@@ -179,42 +187,8 @@
           <p><strong>adjective:</strong> Zimbabwean</p>
         </article>
 
-        <!--Ethinic Groups-->
-        <article>
-          <h3>Ethnic Groups</h3>
-          <table>
-            <caption>Ethnic Groups by Percentage</caption>
-
-            <colgroup></colgroup>
-            <colgroup></colgroup>
-
-            <thead>
-              <tr>
-                <th>Ethnicity</th>
-                <th>Percentage</th>
-              </tr>
-            </thead>
-
-            <tbody>
-              <tr>
-                <td>African</td>
-                <td>99.4</td>
-              </tr>
-
-              <tr>
-                <td>Other</td>
-                <td>0.4</td>
-              </tr>
-
-              <tr>
-                <td>Unspecified</td>
-                <td>0.2</td>
-              </tr>
-            </tbody>
-          </table>
-        </article>
-
         <!--Languages-->
+        <!--
         <article>
           <h3>Languages</h3>
           <ul>
@@ -240,115 +214,154 @@
             </li>
           </ul>
         </article>
+        -->
 
+        <!--Ethinic Groups-->
+        <div id="religion_and_age">
+          <article>
+            <h3>Ethnic Groups</h3>
+            <table>
+              <!--<caption>Ethnic Groups by Percentage</caption>-->
 
-        <!-- Religions -->
-        <article>
-          <h3>Religions</h3>
-          <table>
+              <colgroup></colgroup>
+              <colgroup></colgroup>
 
-            <colgroup></colgroup>
-            <colgroup></colgroup>
+              <thead>
+                <tr>
+                  <th>Ethnicity</th>
+                  <th>Percentage</th>
+                </tr>
+              </thead>
 
-            <thead>
-              <tr>
-                <th>Religion</th>
-                <th>Percentage</th>
-              </tr>
-            </thead>
+              <tbody>
+                <tr>
+                  <td>African</td>
+                  <td>99.4</td>
+                </tr>
 
-            <tbody>
-              <tr>
-                <td>Protestant</td>
-                <td>74.8</td>
-              </tr>
+                <tr>
+                  <td>Other</td>
+                  <td>0.4</td>
+                </tr>
 
-              <tr>
-                <td>Roman Catholic</td>
-                <td>7.3</td>
-              </tr>
+                <tr>
+                  <td>Unspecified</td>
+                  <td>0.2</td>
+                </tr>
+              </tbody>
+            </table>
+          </article>
 
-              <tr>
-                <td>Christian</td>
-                <td>5.3</td>
-              </tr>
+          <!-- Religions -->
+          <article>
+            <h3>Religions</h3>
+            <table>
 
-              <tr>
-                <td>Tradition</td>
-                <td>1.5</td>
-              </tr>
+              <colgroup></colgroup>
+              <colgroup></colgroup>
 
-              <tr>
-                <td>Muslim</td>
-                <td>0.5</td>
-              </tr>
+              <thead>
+                <tr>
+                  <th>Religion</th>
+                  <th>Percentage</th>
+                </tr>
+              </thead>
 
-              <tr>
-                <td>Other</td>
-                <td>0.1</td>
-              </tr>
+              <tbody>
+                <tr>
+                  <td>Protestant</td>
+                  <td>74.8</td>
+                </tr>
 
-              <tr>
-                <td>None</td>
-                <td>10.5</td>
-              </tr>
-            </tbody>
-          </table>
-        </article>
+                <tr>
+                  <td>Roman Catholic</td>
+                  <td>7.3</td>
+                </tr>
 
-        <!-- Age Structure -->
-        <article>
-          <h3>Age Structure</h3>
-          <table>
+                <tr>
+                  <td>Christian</td>
+                  <td>5.3</td>
+                </tr>
 
-            <colgroup></colgroup>
-            <colgroup></colgroup>
+                <tr>
+                  <td>Tradition</td>
+                  <td>1.5</td>
+                </tr>
 
-            <thead>
-              <tr>
-                <th>Age Range (Years)</th>
-                <th>Percentage</th>
-              </tr>
-            </thead>
+                <tr>
+                  <td>Muslim</td>
+                  <td>0.5</td>
+                </tr>
 
-            <tbody>
-              <tr>
-                <td>0-14</td>
-                <td>38.32</td>
-              </tr>
+                <tr>
+                  <td>Other</td>
+                  <td>0.1</td>
+                </tr>
 
-              <tr>
-                <td>15-24</td>
-                <td>20.16</td>
-              </tr>
+                <tr>
+                  <td>None</td>
+                  <td>10.5</td>
+                </tr>
+              </tbody>
+            </table>
+          </article>
 
-              <tr>
-                <td>25-54</td>
-                <td>32.94</td>
-              </tr>
+          <!-- Age Structure -->
 
-              <tr>
-                <td>55-64</td>
-                <td>4.07</td>
-              </tr>
+          <article>
+            <h3>Age Structure</h3>
+            <table>
 
-              <tr>
-                <td>65 and Over</td>
-                <td>4.52</td>
-              </tr>
-            </tbody>
-          </table>
+              <colgroup></colgroup>
+              <colgroup></colgroup>
 
-          <!--Insert Image Here-->
+              <thead>
+                <tr>
+                  <th>Age Range (Years)</th>
+                  <th>Percentage</th>
+                </tr>
+              </thead>
+
+              <tbody>
+                <tr>
+                  <td>0-14</td>
+                  <td>38.32</td>
+                </tr>
+
+                <tr>
+                  <td>15-24</td>
+                  <td>20.16</td>
+                </tr>
+
+                <tr>
+                  <td>25-54</td>
+                  <td>32.94</td>
+                </tr>
+
+                <tr>
+                  <td>55-64</td>
+                  <td>4.07</td>
+                </tr>
+
+                <tr>
+                  <td>65 and Over</td>
+                  <td>4.52</td>
+                </tr>
+              </tbody>
+            </table>
+          </article>
+        </div>
+
+        <aside>
           <figure>
-            <img src="zimbabwe-population-pyramid.png" alt="A graphic displaying the amounts of people per age group in both male and females.">
-            <figcaption>A graphic displaying the amounts of people per age group in both male and females</figcaption>
+            <img src="img/zimbabwe-population-pyramid.png" alt="A graphic displaying the amounts of people per age group in both male and females." class="population_pyramid">
+            <figcaption class="pop_pyramid_caption">A graphic displaying the amounts of people per age group in both male and females. Source: CIA World Factbook</figcaption>
           </figure>
-        </article>
+        </aside>
       </section>
 
       <!--Governement section -->
-      <section>
+      <section id="gov_section">
         <h2 id="government">Government</h2>
 
         <article>
@@ -357,11 +370,11 @@
           <p><strong>Conventional long form:</strong> Republic of Zimbabwe</p>
           <p><strong>Conventional short form:</strong> Zimbabwe</p>
           <p><strong>Former:</strong></p>
-            <ul>
-              <li>Southern Rhodesia</li>
-              <li>Rhodesia</li>
-              <li>Zimbabwe-Rhodesia</li>
-            </ul>
+          <ul>
+            <li>Southern Rhodesia</li>
+            <li>Rhodesia</li>
+            <li>Zimbabwe-Rhodesia</li>
+          </ul>
         </article>
 
         <article>
@@ -369,43 +382,54 @@
           <p>In Zimbabwe, citizenship by birth is not recognized. Citizenship is by decent only, meaning the father must be a citizen of Zimbabwe, but, in the case of a child born out of wedlock, the mother must be a citizen. Dual citizenship is not recognized and the residency of requirement for naturalization is five years.</p>
         </article>
 
+        <div id="gov">
+          <article>
+            <h3>National Colors</h3>
+            <ul>
+              <li>Green</li>
+              <li>Yellow</li>
+              <li>Red</li>
+              <li>Black</li>
+              <li>White</li>
+            </ul>
+          </article>
+
+          <article>
+            <h3>National Symbols</h3>
+            <ul>
+              <li>Zimbabwe bird symbol</li>
+              <li>African fish eagle</li>
+              <li>Flame lily</li>
+            </ul>
+          </article>
+
+          <article>
+            <h3>Military and Security Forces</h3>
+            <!--<p>The <abbr title="Zimbabwe Defense Forces">ZDF</abbr> was formed after independence from the former Rhodesian Army and the two guerrilla forces that opposed it during the Rhodesian Civil War (aka "Bush War") of the 1970s. Internal security is a key current responsibility, and the military continues to play an active role in the country’s politics since the coup of <time datetime="2017">2017</time>.</p>-->
+
+            <!--<p>The current Zimbabwe military and security forces are:</p>-->
+            <ul>
+              <li>Zimbabwe Defense Forces (ZDF)</li>
+              <li>Zimbabwe National Army (<abbr title="Zimbabwe National Army">ZNA</abbr>)</li>
+              <li>Air Force of Zimbabwe (<abbr title="Air Force of Zimbabwe">AFZ</abbr>)</li>
+            </ul>
+          </article>
+        </div>
+
         <article>
-          <h3>National Symbols</h3>
-          <ul>
-            <li>Zimbabwe bird symbol</li>
-            <li>African fish eagle</li>
-            <li>Flame lily</li>
-          </ul>
+          <h3>Administrative Divisions</h3>
+          <p>Zimbabwe has eight provinces and two cities with provincial status. The eight provinces are Manicaland, Mashonaland Central, Mashonaland East, Mashonaland West, Masvingo, Matabeleland North, Matabeleland South, Midlands. The two cities are Bulawayo and Harare. </p>
         </article>
 
         <article>
-          <h3>National Colors</h3>
-          <ul>
-            <li>Green</li>
-            <li>Yellow</li>
-            <li>Red</li>
-            <li>Black</li>
-            <li>White</li>
-          </ul>
-        </article>
-
-        <article>
-          <h3>Military and Security Forces</h3>
-          <p>The <abbr title="Zimbabwe Defense Forces">ZDF</abbr> was formed after independence from the former Rhodesian Army and the two guerrilla forces that opposed it during the Rhodesian Civil War (aka "Bush War") of the 1970s. Internal security is a key current responsibility, and the military continues to play an active role in the country’s politics since the coup of <time datetime="2017">2017</time>.</p>
-
-          <p>The current Zimbabwe military and security forces are:</p>
-          <ul>
-            <li>Zimbabwe Defense Forces (ZDF)</li>
-            <li>Zimbabwe National Army (<abbr title="Zimbabwe National Army">ZNA</abbr>)</li>
-            <li>Air Force of Zimbabwe (<abbr title="Air Force of Zimbabwe">AFZ</abbr>)</li>
-          </ul>
+          <h3>The Official Government of Zimbabwe Website</h3>
+          <p>To visit the official government of Zimbabwe website and learn even more, click <a href="http://www.zim.gov.zw/index.php/en/">here</a>.</p>
         </article>
       </section>
     </main>
 
     <footer>
-      <p>Source: <a href="https://www.cia.gov/the-world-factbook/countries/zimbabwe/"><abbr title="Central Intelligence Agency">CIA</abbr> World Factbook</a></p>
-      <p>The Official Government of Zimbabwe Web Portal: <a href="http://www.zim.gov.zw/index.php/en/">http://www.zim.gov.zw/index.php/en/</a></p>
+      <p>Website Created by Kyle Mendelson | <a href="#top">Back To Top</a> | Source: <a href="https://www.cia.gov/the-world-factbook/countries/zimbabwe/">CIA World Factbook</a></p>
     </footer>
   </body>
 </html>

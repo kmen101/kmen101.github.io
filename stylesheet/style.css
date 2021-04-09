@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=New+Tegomin&family=Raleway:wght@600;700&display=swap');
+
+header{
+  text-align: center;
+  text-decoration: underline;
+}
+
+h1{
+  font-family: "New Tegomin", "Times New Roman", sans-serif;
+  font-size: 45px;
+  margin-top: 0px;
+}
+
+h2{
+  font-family: "Raleway", "Arial", sans-serif;
+  font-weight: 700;
+  background-color: #FFD200;
+}
+
+h3{
+  font-family: "Raleway", "Arial", sans-serif;
+  font-weight: 600;
+}
+
+body {
+  font-family: "Crimson Text", "Times New Roman", serif;
+  font-weight: 400;
+}
+
+strong{
+  font-family: "Crimson Text", "Times New Roman", serif;
+  font-weight: 700;
+}
+
+nav{
+  text-align: center;
+  font-family: "Crimson Text";
+  background-color: #eee;
+  padding: 5px 0px 5px 5px;
+  border: 2px solid #ddd;
+  margin: 5px 49px 15px;
+}
+
+nav ul{
+  padding-left: 0px;
+  list-style-options: none;
+}
+
+nav li{
+  font-weight: bold;
+  font-size: 18px;
+  margin-right:20px;
+  display: inline-block;
+}
+
+footer{
+  text-align: center;
+  background-color: #eee;
+  padding: 5px 0px 5px 5px;
+  border: 2px solid #ddd;
+  margin: 5px 49px 15px;
+}
+
+a,
+a:link,
+a:visited{
+  color: #D40000;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #006400;
+  text-decoration: underline;
+  border-bottom: 5px #006400;
+}
+
+a:active{
+  color: #006400;
+  text-decoration: underline;
+  border-bottom: 5px #006400;
+}
+
+section{
+  background-color: #ffffe6;
+  border: 1px solid #000;
+  padding: 10px 13px;
+  margin: 12px;
+}
+
+table,
+th,
+td{
+  border: 1px solid #000;
+  text-align: center;
+}
+
+figcaption{
+  font-size: small;
+}
+
+main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#wrapper{
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+#bottom_intro_text{
+  padding-bottom: 10px;
+}
+
+#flag_text{
+  float:left;
+  height: 200px;
+  width: 360px;
+}
+#flag_img{
+  float:right;
+}
+
+#location_text_1{
+  float:left;
+  margin-top: 0px;
+  padding-right: 10px;
+  width: 400px;
+}
+
+#location_text{
+  float:left;
+  padding-right: 14px;
+  width: 400px;
+}
+
+#map{
+  padding-top: 5px;
+  padding-bottom: 100px;
+}
+
+#geography{
+  display: grid;
+  max-width:900px;
+  float:left;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 40px;
+}
+
+
+#religion_and_age{
+  display: grid;
+  max-width:800px;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 40px;
+}
+
+#gov{
+  display: grid;
+  max-width:800px;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-bottom: 0px;
+}
+
+.population_pyramid{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  border: 1px solid #000;
+  margin-bottom: 5px;
+}
+
+.pop_pyramid_caption{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
