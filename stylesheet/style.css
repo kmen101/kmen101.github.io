@@ -1,49 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;700&family=New+Tegomin&family=Raleway:wght@600;700&display=swap');
-
 header{
   text-align: center;
-  text-decoration: underline;
-}
-
-h1{
-  font-family: "New Tegomin", "Times New Roman", sans-serif;
-  font-size: 45px;
-  margin-top: 0px;
-}
-
-h2{
-  font-family: "Raleway", "Arial", sans-serif;
-  font-weight: 700;
-  background-color: #FFD200;
-}
-
-h3{
-  font-family: "Raleway", "Arial", sans-serif;
-  font-weight: 600;
-}
-
-body {
-  font-family: "Crimson Text", "Times New Roman", serif;
-  font-weight: 400;
-}
-
-strong{
-  font-family: "Crimson Text", "Times New Roman", serif;
-  font-weight: 700;
 }
 
 nav{
   text-align: center;
-  font-family: "Crimson Text";
   background-color: #eee;
   padding: 5px 0px 5px 5px;
   border: 2px solid #ddd;
-  margin: 5px 49px 15px;
-}
-
-nav ul{
-  padding-left: 0px;
-  list-style-options: none;
+  margin: 10px 405px 15px;
 }
 
 nav li{
@@ -53,12 +17,20 @@ nav li{
   display: inline-block;
 }
 
+h1{
+  font-size: 32px;
+}
+
+body{
+  font-size: 16px;
+}
+
 footer{
   text-align: center;
   background-color: #eee;
   padding: 5px 0px 5px 5px;
   border: 2px solid #ddd;
-  margin: 5px 49px 15px;
+  margin: 15px 405px 15px;
 }
 
 a,
@@ -80,100 +52,144 @@ a:active{
   border-bottom: 5px #006400;
 }
 
-section{
-  background-color: #ffffe6;
-  border: 1px solid #000;
-  padding: 10px 13px;
-  margin: 12px;
-}
-
-table,
-th,
-td{
-  border: 1px solid #000;
-  text-align: center;
-}
-
-figcaption{
-  font-size: small;
-}
-
-main{
+#home_main{
   display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-#wrapper{
-  max-width: 1700px;
+  max-width: 960px;
   margin: 0 auto;
 }
 
-#bottom_intro_text{
+#about_me{
+  width: 540px;
+  float:left;
+  padding-bottom: 10px;
+  padding-right: 63px;
+}
+
+/*Adds shadow to pictures -- makes it look less flat*/
+#pic_shadow{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#languages_programs{
+  display: grid;
+  grid-template-columns: 350px 290px 400px;
+  float: left;
+}
+
+#photo_manip{
+  max-width: 940px;
+  margin: 0 auto;
+  border-bottom: 2px solid #ddd;
+}
+
+#data_vis{
+  max-width: 940px;
+  margin: 20px auto;
+  padding-bottom: 20px;
+}
+
+#data_vis p{
+  padding-bottom: 15px;
+}
+
+#insomniac{
+  height: 660px;
+  width: auto;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#cows{
+  height: 555px;
+  width: auto;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#merch{
+  max-width: 940px;
+  margin: 0 auto;
+}
+
+#tshirts{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-bottom: 2px solid #ddd;
   padding-bottom: 10px;
 }
 
-#flag_text{
-  float:left;
-  height: 200px;
-  width: 360px;
-}
-#flag_img{
-  float:right;
+#tshirts img{
+  width: 100%;
 }
 
-#location_text_1{
-  float:left;
-  margin-top: 0px;
-  padding-right: 10px;
-  width: 400px;
+/*
+#earmark_intro{
+  max-width: 940px;
+  margin: 0 auto;
+  border-bottom: 2px solid #ddd;
 }
 
-#location_text{
-  float:left;
-  padding-right: 14px;
-  width: 400px;
+#earmark_intro h2,p{
+  max-width: 540px;
+  float: left;
 }
 
-#map{
-  padding-top: 5px;
-  padding-bottom: 100px;
+#earmark_intro img{
+  width: 50%;
 }
+*/
 
-#geography{
+#app_main{
   display: grid;
-  max-width:900px;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+#earmark_intro{
+  width: 540px;
   float:left;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding-bottom: 40px;
+  padding-bottom: 10px;
+  padding-right: 63px;
 }
 
+#earmark_logo{
+  width: 28%;
+}
 
-#religion_and_age{
+#line{
+  border-bottom: 2px solid #ddd;
+}
+
+/*from Web Zone on Youtube */
+.slider{
+	margin:50px auto;
+	width:50%;
+
+}
+
+.img-box img{
+	width:100%;
+}
+
+.btn{
+	border:none;
+	outline:none;
+	background:#888;
+	padding:10px 30px;
+	font-size: 20px;
+	color:#ddd;
+	cursor: pointer;
+	margin:10px auto;
+}
+
+.btn:hover{
+	background: #111;
+}
+/*End YouTube*/
+
+#buttons{
   display: grid;
-  max-width:800px;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding-bottom: 40px;
-}
-
-#gov{
-  display: grid;
-  max-width:800px;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding-bottom: 0px;
-}
-
-.population_pyramid{
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 75%;
-  border: 1px solid #000;
-  margin-bottom: 5px;
-}
-
-.pop_pyramid_caption{
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 75%;
+  grid-template-columns: 1fr 1fr;
 }
