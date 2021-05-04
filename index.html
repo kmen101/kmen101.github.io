@@ -1,56 +1,75 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <title>My Github Assignment</title>
+    <meta charset="utf-8" />
+    <title>Kyle Mendelson</title>
+    <link href="stylesheet/style.css" rel="stylesheet"/>
   </head>
 
   <body>
-    <!-- This is my header -->
-    <h1>Kyle Mendelson</h1>
-    <h2>Born May 24, 1999 in Gaithersburg, Maryland</h2>
+    <header>
+      <h1>Kyle Mendelson</h1>
+    </header>
 
-    <h3>A little about me</h3>
-    <ul>
-      <li>I am a senior</li>
-      <li>I am a computer science major</li>
-      <li>I plan to go into analytics after graduation</li>
-    </ul>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="graphics.html">Graphic Design</a></li>
+        <li><a href="app.html">Mobile Application</a><li>
+        <li><a href="img/Kyle_Mendelson_Resume.pdf" target="_blank">Resume PDF</a></li>
+      </ul>
+    </nav>
 
+    <main id="home_main">
+      <section>
+        <div id="about_me">
+          <h2>A Little Bit About Me</h2>
 
+          <p>My name is Kyle Mendelson and welcome to my website! I was born on May 24, 1999 in Gaithersburg, Maryland. I atteneded both Thomas S. Wootton High School and Bullis School. I graduated from Bullis in May of 2017 and then headed to the University of Miami. Before I arrived I applied to graduate with a degree in Computer Science. Growing up I was always fascinated by technology. As I got older this interest began to grow. My freshman year of high school I took my first ever coding course called design technology solutions, or <abbr title="Design Technology Solutions">DTS</abbr>. This was my first experience with Java and from then on I knew I was going to be coding for years to come.</p>
 
-    <!-- Info about me -->
-    <h3>This is my first webpage!</h3>
-    <p>However, I actually studied HTML and CSS way back in my sophopmore <br>
-      year of high school. I haven't truly had some experience with it since <br>
-      about 2015, but this it's amazing what you can remember. Taking this <br>
-      class is almost like a refresh for me. I remember I loved learning html it <br>
-      was honestly the class that inspired be to become a computer science major.
-    </p>
+          <p>As I continued to get older, my interests continued to evolve. I picked up a minor in Business Technology after taking a few courses and falling in love with the business side of the tech world. As I continued my journey through college, I found myself fascinated with data and knew that was the market I wanted to dive into. I decided to try my best to transform my major to be very focused on data. I completed courses in data mining, data visualization, data journalism, and more. As I prepare to enter "the real world," I'm so excited for what's to come.</p>
 
+          <p>Throughout college I've had incredible real life experiences. Beginning in January of 2019 I became the Merchandise Chair of the Alpha Epsilon Pi fraternity. The summer between my junior and senior year I had the opportunity to work as a Data Engineering intern for Consumer Edge. In August 2020 I became an Insights Analyst for Orange Umbrella, a completely student run consulting firm. Through Orange Umbrella I had the incredible opportunity to work at Super Bowl LIV in Miami as a Social Media intern. </p>
+        </div>
+          <figure>
+            <img src="img/headshot.jpg" alt="Kyle Mendelson" id="pic_shadow">
+          </figure>
 
+        <div id="languages_programs">
+          <article>
+            <h2>Coding Languages I Know</h2>
+            <ul>
+              <li>Java</li>
+              <li>Python</li>
+              <li>SQL</li>
+              <li>C++</li>
+            </ul>
+          </article>
 
-    <!-- Other languages I know -->
-    <h3>In addition to HTML</h3>
-    <p>I know...</p>
-    <ol>
-      <li>Python</li>
-      <li>Java (even though this is very much my least favorite)</li>
-      <li>Some SQL</li>
-      <li>C++</li>
-    </ol>
+          <article>
+            <h2>Programs I Know</h2>
+            <ul>
+              <li>Adobe Photoshop</li>
+              <li>Adobe Illustrator</li>
+              <li>Adobe InDesign</li>
+              <li>iMovie</li>
+            </ul>
+          </article>
 
+          <article>
+            <h2>Important Courses I've Taken</h2>
+            <ul>
+              <li>Computer Programming I & II</li>
+              <li>Software Engineering</li>
+              <li>Database Systems</li>
+              <li>Data Mining</li>
+          </article
+        </div>
+      </section>
+    </main>
 
-    <!-- Hello, World! -->
-    <h3>To this day, I always start with hello world</h3>
-    <pre>print(hello, world)</pre>
-    <pre>system.out.println("hello, world")</pre>
-
-
-
-    <!-- Input an image -->
-    <h3>Now to test my image incorporation abilities!</h3>
-    <img src="octocat.png" alt="A cat dressed as an octopus">
-
+    <footer>
+      <p>Website and Content Created by Kyle Mendelson | <a href="https://www.linkedin.com/in/kyle-mendelson/" target="_blank">LinkedIn</a> | <a href="mailto: kylemendelson29@gmail.com">Email Me</a></p>
+    </footer>
   </body>
 </html>
