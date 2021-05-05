@@ -162,6 +162,26 @@ a:active{
   border-bottom: 2px solid #ddd;
 }
 
+#acc_setup p{
+  width: 840px;
+  padding-bottom: 10px;
+}
+
+#acc_setup video{
+  float: left;
+  margin-right: 40px;
+}
+
+#bill_budget p{
+  width: 840px;
+  padding-bottom: 10px;
+}
+
+#bill_budget video{
+  float: right;
+  margin-left: 40px;
+}
+
 /*from Web Zone on Youtube */
 .slider{
 	margin:50px auto;
