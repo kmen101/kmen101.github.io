@@ -41,15 +41,15 @@ a:visited{
 }
 
 a:hover{
-  color: #006400;
+  color: #600000;
   text-decoration: underline;
-  border-bottom: 5px #006400;
+  border-bottom: 5px #600000;
 }
 
 a:active{
-  color: #006400;
+  color: #600000;
   text-decoration: underline;
-  border-bottom: 5px #006400;
+  border-bottom: 5px #600000;
 }
 
 #home_main{
@@ -85,7 +85,6 @@ a:active{
 #data_vis{
   max-width: 940px;
   margin: 20px auto;
-  padding-bottom: 20px;
 }
 
 #data_vis p{
@@ -124,23 +123,6 @@ a:active{
   width: 100%;
 }
 
-/*
-#earmark_intro{
-  max-width: 940px;
-  margin: 0 auto;
-  border-bottom: 2px solid #ddd;
-}
-
-#earmark_intro h2,p{
-  max-width: 540px;
-  float: left;
-}
-
-#earmark_intro img{
-  width: 50%;
-}
-*/
-
 #app_main{
   display: grid;
   max-width: 960px;
@@ -162,24 +144,43 @@ a:active{
   border-bottom: 2px solid #ddd;
 }
 
+#acc_setup{
+  padding-bottom: 30px;
+}
 #acc_setup p{
-  width: 840px;
+  width: 950px;
   padding-bottom: 10px;
 }
 
 #acc_setup video{
   float: left;
   margin-right: 40px;
+  border: 0.5px solid #000;
+}
+
+#bill_budget{
+  padding-bottom: 20px;
 }
 
 #bill_budget p{
-  width: 840px;
-  padding-bottom: 10px;
+  width: 640px;
 }
 
 #bill_budget video{
   float: right;
   margin-left: 40px;
+  border: 0.5px solid #000;
+  margin-bottom: 10px;
+}
+
+#all_screens{
+  padding-bottom: 10px;
+}
+
+#all_screens video{
+  float: left;
+  margin-right: 40px;
+  border: 0.5px solid #000;
 }
 
 /*from Web Zone on Youtube */
